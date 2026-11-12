@@ -220,7 +220,12 @@ dial.addEventListener("click", () => {
 });
 
 // Button interactions
-loginButton.addEventListener("click", login);
+loginButton.addEventListener("click", () => {
+  login().catch(error => {
+    console.error("ORBIT login error:", error);
+    alert("ORBIT ERROR: " + error.message);
+  });
+});
 playButton.addEventListener("click", togglePlayback);
 nextButton.addEventListener("click", nextTrack);
 previousButton.addEventListener("click", previousTrack);
