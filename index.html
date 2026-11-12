@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORBIT — Your Music Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="background-glow"></div>
+
+  <header>
+    <div class="logo">ORBIT<span>.</span></div>
+    <button id="loginButton">CONNECT SPOTIFY</button>
+  </header>
+
+  <main>
+    <section class="visualizer-section">
+      <div class="status">● SYSTEM ONLINE</div>
+
+      <div class="visualizer">
+        <div class="outer-ring"></div>
+        <div class="middle-ring"></div>
+        <div class="inner-ring"></div>
+        <div class="particle-orbit"></div>
+
+        <div class="center">
+          <div class="equalizer">
+            <i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <p>ORBIT</p>
+          <small>YOUR SOUND. YOUR UNIVERSE.</small>
+        </div>
+      </div>
+
+      <div class="track-info">
+        <h1 id="trackName">Welcome to ORBIT</h1>
+        <p id="artistName">Connect Spotify to begin</p>
+      </div>
+    </section>
+
+    <section class="controls">
+      <div class="dial" id="dial">
+        <div class="dial-inner">
+          <span>↻</span>
+          <small>EXPLORE</small>
+        </div>
+      </div>
+
+      <div class="playback">
+        <button id="previous">◀</button>
+        <button id="play">▶</button>
+        <button id="next">▶</button>
+      </div>
+
+      <div class="volume">
+        <span>VOLUME</span>
+        <input type="range" min="0" max="100" value="65">
+      </div>
+    </section>
+  </main>
+
+  <footer>ORBIT INTERFACE · DESIGNED FOR SOUND</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
