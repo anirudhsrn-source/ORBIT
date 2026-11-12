@@ -2,7 +2,7 @@
 // ORBIT — Spotify connection and controls
 
 // 1. ADD YOUR SPOTIFY CLIENT ID HERE LATER
-const CLIENT_ID = "PASTE_YOUR_SPOTIFY_CLIENT_ID_HERE";
+const CLIENT_ID = "6951277cd85c47699869b8b8cfbff243";
 
 // 2. Automatically use this site's address as the Spotify redirect
 const REDIRECT_URI = window.location.origin + window.location.pathname;
